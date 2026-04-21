@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class FileTool {
 
     private static final Scanner input = new Scanner(System.in);
-
+    // Auther: Layan Alaboudi
     public static void main(String[] args) {
 
         String command = "";
@@ -108,6 +108,7 @@ public class FileTool {
 
     // This method list available commands on
     // the project
+     // Auther: Hanin
     public static void help() {
         String RESET = "\u001B[0m";
         System.out.println("Available Commands:");
@@ -123,6 +124,7 @@ public class FileTool {
     }
 
     // Validates a path string and returns a Path object or null if invalid
+     // Auther: Layan Alaboudi
     private static Path validatePath(String input) {
         try {
             return Paths.get(input);
@@ -134,6 +136,7 @@ public class FileTool {
 
     // This method lists the content of a given
     // directory if it exists and is valid
+     // Auther: Hanin
     public static void list(String directoryPath) {
 
         // Convert the raw string input into a Path object.
@@ -182,6 +185,7 @@ public class FileTool {
     }
 
     // Copy Command
+    // Auther: Lama
     public static void copy(String sourcePath, String destinationPath) {
         Path srcPath = validatePath(sourcePath);
         Path desPath = validatePath(destinationPath);
@@ -308,6 +312,7 @@ public class FileTool {
     }
 
     // Move Command
+    // Auther: Lama
     public static void move(String sourcePath, String destinationPath) {
         Path srcPath = validatePath(sourcePath);
         Path desPath = validatePath(destinationPath);
@@ -383,6 +388,7 @@ public class FileTool {
     }
 
     // rename method
+    // Auther: Shouq
     public static void rename(String oldName, String newName) {
         oldName = oldName.trim();
 
@@ -464,6 +470,7 @@ public class FileTool {
     }
 
     // delete method
+    // Auther: Shouq
     public static void delete(String path) {
         path = path.trim();
 
