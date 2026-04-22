@@ -268,10 +268,10 @@ Supervised by: **Modhi AlSobeihy**
 
 | Name                  | Contribution              |
 |-----------------------|---------------------------|
-| Lama Ali Alowaydhi    | Copy & Move commands      |
-| Layan Faisal Alaboudi | Main method, Path validation, Banner |
-| Shouq Faez Aljohani   | Rename & Delete commands  |
-| Haneen Atiah Alharbi  | Help & List commands      |
+| Lama  Alowaydhi    | Copy & Move commands      |
+| Layan  Alaboudi | Main method, Path validation, Banner |
+| Shouq  Aljohani   | Rename & Delete commands  |
+| Haneen  Alharbi  | Help & List commands      |
 
 ---
 
